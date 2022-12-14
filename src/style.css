@@ -1,0 +1,97 @@
+:root {
+  --color-1: #6c63ff;
+  --color-2: #f5f2fe;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+h1 {
+  font-size: 6em;
+}
+
+h3 {
+  font-size: 1.5em;
+  opacity: 0.7;
+}
+
+body {
+  text-align: center;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.contact,
+.about {
+  text-decoration: none;
+  border: 1px solid var(--color-1);
+  border-radius: 4px;
+  padding: 20px 15px;
+  color: var(--color-1);
+  margin: 20px;
+}
+
+.contact {
+  color: white;
+  background: var(--color-1);
+}
+
+.paragraphs {
+  display: flex;
+  justify-content: center;
+}
+
+.paragraphs p {
+  background: var(--color-2);
+  padding: 20px;
+  margin: 10px;
+  border-radius: 4px;
+  line-height: 1.5;
+  font-size: 1.2em;
+  max-width: 25%;
+}
+
+#contact a {
+  text-decoration: none;
+  font-size: 1.75em;
+  color: var(--color-1);
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+#contact {
+  margin-top: 50px;
+}
+
+#hOne {
+  margin: 0 auto;
+}
+
+#about-me-body {
+  margin: 0 auto 60px auto;
+}
+
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--color-1);
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  #first {
+    order: 4;
+  }
+  #second {
+    order: 2;
+  }
+}
